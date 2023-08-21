@@ -1,6 +1,7 @@
 
 * {
-border: 1px solid #bbb;
+    border: 1px solid #bbb;
+    padding: 0.3rem;
 }
 
 html {
@@ -11,13 +12,32 @@ body {
     
 }
 
-form {
-    display: flex;
+/*  */
 
+#form_controls {
+    display: flex;
+    gap: 100px;
+
+
+    background-color: whitesmoke;
 }
 
 
 #form_right {
 
     align-self: flex-end;
+}
+
+/* create account button */
+
+
+button {
+    border: 2px solid black;
+    background-color: #00df0a;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
 }
